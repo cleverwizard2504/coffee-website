@@ -1,15 +1,124 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>اولین سایت من</title>
-        <style>
-        body {font-family: sans-serif;text-align: center;padding: 50px;}
-        h1 {color: #2c3e50;}
-        </style>
-    </head>
-    <body>
-        <h1>سلام! این اولین سایت منه</h1>
-        <p>ساخته شده با HTML و CSS</p>
-        <p>توسط خانم تواضعی</p>
-    </body>
-    </html>
+<head>
+    <title>کافی‌شاپ دنج</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            direction: rtl;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: #fdf6e3;
+            font-size: 20px;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: #8B4513;
+            color: white;
+            padding: 30px 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .coffee-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin: 20px 0;
+            border: 2px solid #8B4513;
+        }
+
+        h1 { 
+            font-size: 36px;
+            margin: 0;
+        }
+        
+        h2 {
+            color: #8B4513;
+            font-size: 28px;
+        }
+
+        .coffee-image {
+            width: 150px;
+            height: 150px;
+            background: #f0e6d2;
+            border-radius: 50%;
+            margin: 15px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8B4513;
+            border: 3px solid #8B4513;
+            font-size: 24px;
+        }
+
+        .price {
+            font-size: 24px;
+            color: #27ae60;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .order-button {
+            background: #8B4513;
+            color: white;
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        
+        .footer {
+            background: #8B4513;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>☕ کافی‌شاپ دنج</h1>
+        <p>لذت یک قهوه فوق‌العاده</p>
+    </div>
+    
+    <div class="container">
+        <div class="coffee-card">
+            <h2>اسپرسو</h2>
+            <div class="coffee-image">☕</div>
+            <p>قهوه خالص و غلیظ با عطر بی‌نظیر</p>
+            <div class="price">۴۵,۰۰۰ تومان</div>
+            <button class="order-button">سفارش</button>
+        </div>
+        
+        <div class="coffee-card">
+            <h2>لاته</h2>
+            <div class="coffee-image">🥛</div>
+            <p>ترکیب قهوه اسپرسو با شیر گرم و کف شیر</p>
+            <div class="price">۶۵,۰۰۰ تومان</div>
+            <button class="order-button">سفارش</button>
+        </div>
+        
+        <div class="coffee-card">
+            <h2>کاپوچینو</h2>
+            <div class="coffee-image">🧋</div>
+            <p>تعادل کامل بین اسپرسو، شیر و کف شیر</p>
+            <div class="price">۵۵,۰۰۰ تومان</div>
+            <button class="order-button">سفارش</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>📍 آدرس: تهران، خیابان مثال</p>
+        <p>📞 تلفن: ۰۹۱۲۱۲۳۴۵۶۷</p>
+    </div>
+</body>
+</html>
